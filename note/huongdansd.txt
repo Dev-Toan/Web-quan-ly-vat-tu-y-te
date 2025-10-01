@@ -1,0 +1,6 @@
+cập nhật db.json
+	npm install csv-parser
+	node convert-csv-to-json.js
+
+start web
+	npx json-server db.json

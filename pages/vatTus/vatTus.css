@@ -1,0 +1,35 @@
+@import url(../../style.css);
+@import url(../../bootstrap-5.3.3-dist/css/bootstrap.css);
+
+#vatTusTable {
+    font-size: small;
+}
+
+#vatTusTable thead th {
+    vertical-align: middle;
+}
+
+#vatTusTable thead th span {
+    color: var(--primary-color);
+    font-weight: bolder;
+}
+
+#vatTusTable tfoot th {
+    color: var(--primary-color);
+}
+
+#vatTusTable td {
+    vertical-align: middle;
+}
+
+#editVatTuModal label {
+    color: var(--primary-color);
+}
+
+#addVatTuModal label {
+    color: var(--primary-color);
+}
+
+#nhapVatTuTable tfoot th {
+    color: var(--primary-color);
+}

@@ -1,0 +1,27 @@
+# @name getAllVatTus
+
+GET http://localhost:3000/vatTus
+
+###
+
+# @name getAllDanhMucs
+
+GET http://localhost:3000/danhMucs
+
+###
+
+# @name getEmbed
+
+GET http://localhost:3000/vatTus?_embed=danhMuc
+
+###
+
+# @name getEmbed2
+
+GET http://localhost:3000/danhMucs?_embed=vatTus
+
+###
+
+# @name pagination
+
+GET http://localhost:3000/vatTus?_page=1&_per_page=2

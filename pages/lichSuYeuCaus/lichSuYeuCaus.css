@@ -1,0 +1,22 @@
+@import url(../../style.css);
+@import url(../../bootstrap-5.3.3-dist/css/bootstrap.css);
+
+#vatTusTable {
+    font-size: small;
+}
+
+#vatTusTable thead th {
+    color: var(--primary-color);
+}
+
+#vatTusTable thead th span {
+    font-weight: bolder;
+}
+
+#vatTusTable tfoot th {
+    color: var(--primary-color);
+}
+
+#vatTusTable tbody td {
+    vertical-align: middle;
+}
